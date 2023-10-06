@@ -1,10 +1,16 @@
 package Trainning_extends;
 
 public class Animal {
-	public String cry;
+	
+	//メンバ変数
+	String voice;
+	
 	//鳴き声を出力
-	//public void Sound(String cry) {
-		//System.out.println(cry);
+	public Animal(String Voice) {
+		voice = Voice;
 	}
-
-//}
+	
+	public void Sound() {
+		System.out.println(voice);
+	}
+}
