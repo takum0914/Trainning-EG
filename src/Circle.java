@@ -1,5 +1,5 @@
 
-public class Circle {
+public class Circle implements Shape {
 	
 	int d;
 	
@@ -8,12 +8,10 @@ public class Circle {
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
-	
-	
 	public int area() {
 		return d*d*3;
 	}
-	
+
 	public int perimeter() {
 		return 2*d*3;
 	}

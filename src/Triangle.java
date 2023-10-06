@@ -1,5 +1,5 @@
 
-public class Triangle {
+public class Triangle implements Shape{
 	
 	int w;
 	int h;
@@ -9,6 +9,7 @@ public class Triangle {
 		this.h = h;
 		
 	}
+	
 	public int area() {
 		return w*h/2;
 	}

@@ -14,11 +14,9 @@ public class Rectangle implements Shape{
 	
 	
 	
-	
-
 	public int area() {
-	return  a * b;
-}
+		return  a * b;
+	}
 
 	public int perimeter() {
 	return 2*a + 2*b;
